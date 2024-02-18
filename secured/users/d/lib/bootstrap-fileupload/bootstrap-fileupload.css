@@ -1,0 +1,116 @@
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.btn-file > input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  font-size: 23px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transform: translate(-300px, 0) scale(4);
+  direction: ltr;
+}
+
+.filUSpload {
+  margin-bottom: 9px;
+}
+
+.filUSpload .uneditable-input {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  cursor: text;
+}
+
+.filUSpload .thumbnail {
+  display: inline-block;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.filUSpload .thumbnail > img {
+  display: inline-block;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+.filUSpload .btn {
+  vertical-align: middle;
+}
+
+.filUSpload-exists .filUSpload-new,
+.filUSpload-new .filUSpload-exists {
+  display: none;
+}
+
+.filUSpload-inline .filUSpload-controls {
+  display: inline;
+}
+
+.filUSpload-new .input-append .btn-file {
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
+}
+
+.thumbnail-borderless .thumbnail {
+  padding: 0;
+  border: none;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.filUSpload-new.thumbnail-borderless .thumbnail {
+  border: 1px solid #ddd;
+}
+
+.control-group.warning .filUSpload .uneditable-input {
+  color: #a47e3c;
+  border-color: #a47e3c;
+}
+
+.control-group.warning .filUSpload .filUSpload-preview {
+  color: #a47e3c;
+}
+
+.control-group.warning .filUSpload .thumbnail {
+  border-color: #a47e3c;
+}
+
+.control-group.error .filUSpload .uneditable-input {
+  color: #b94a48;
+  border-color: #b94a48;
+}
+
+.control-group.error .filUSpload .filUSpload-preview {
+  color: #b94a48;
+}
+
+.control-group.error .filUSpload .thumbnail {
+  border-color: #b94a48;
+}
+
+.control-group.success .filUSpload .uneditable-input {
+  color: #468847;
+  border-color: #468847;
+}
+
+.control-group.success .filUSpload .filUSpload-preview {
+  color: #468847;
+}
+
+.control-group.success .filUSpload .thumbnail {
+  border-color: #468847;
+}
